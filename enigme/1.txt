@@ -1,0 +1,7 @@
+Q:Who_killed_Baldur_??
+_
+_
+1:The_Fenris_Wolf
+2:Loki
+3:Thor
+S:2

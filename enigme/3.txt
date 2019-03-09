@@ -1,0 +1,7 @@
+Q:Who_will_avenge_Ódin_after
+_he_has_been_killed_by_the
+_Fenris_Wolf?
+1:Víðar
+2:Hermour
+3:The_Einherjar
+S:1

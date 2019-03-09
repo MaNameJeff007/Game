@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "player1.h": "c",
+        "sdl.h": "c",
+        "camera.h": "c",
+        "sdl_rotozoom.h": "c",
+        "sdl_image.h": "c",
+        "unistd.h": "c",
+        "score.h": "c",
+        "bg.h": "c"
+    }
+}

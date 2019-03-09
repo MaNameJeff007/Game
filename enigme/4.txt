@@ -1,0 +1,7 @@
+Q:Where_did_all_mighty_Norse
+_warriors_hoped_to go_after_death?
+_
+1:heaven
+2:Valhalla
+3:Purgatory
+S:2

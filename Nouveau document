@@ -1,0 +1,44 @@
+void setup()
+{
+  Serial.begin(9600);
+  
+  pinMode(2,INPUT);
+  pinMode(3,INPUT);
+  pinMode(4,INPUT);
+  pinMode(5,INPUT);
+  pinMode(6,INPUT);
+
+  pinMode(8,OUTPUT);
+  pinMode(9,OUTPUT);
+  pinMode(10,OUTPUT);
+}
+int i ;
+void loop()
+{
+  //digitalWrite(8, HIGH) ;
+  if(digitalRead(2) == HIGH)
+  Serial.println("up_1");
+ // else
+ // Serial.println("up_0");
+  if(digitalRead(3) == HIGH)
+  Serial.println("down_1");
+ // else
+ // Serial.println("down_0");
+  if(digitalRead(4) == HIGH)
+  Serial.println("left_1");
+ // else
+ // Serial.println("left_0");
+  if(digitalRead(5) == HIGH)
+  Serial.println("right_1");
+ // else
+ // Serial.println("right_0");
+  if(digitalRead(6) == HIGH)
+  Serial.println("jump_1");
+ // else
+ // Serial.println("jump_0");
+
+ if (Serial.available()> 0)
+  i=Serial.read()  - '0';
+ if(i == 1)
+  digitalWrite(8, HIGH) ;
+}

@@ -1,0 +1,34 @@
+\hypertarget{AI_8c}{}\section{A\+I.\+c File Reference}
+\label{AI_8c}\index{A\+I.\+c@{A\+I.\+c}}
+
+
+intellignece artificiel.  
+
+
+{\ttfamily \#include \char`\"{}A\+I.\+h\char`\"{}}\\*
+Include dependency graph for A\+I.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries distance} (\hyperlink{structEnnemi}{ennemi} E, \hyperlink{structplayer}{player} H, \hyperlink{structbackground}{background} bg, \hyperlink{structCamera}{camera} c)\hypertarget{AI_8c_a4bfd693ea17442a6ce0cec8d23cf8eb0}{}\label{AI_8c_a4bfd693ea17442a6ce0cec8d23cf8eb0}
+
+\item 
+void {\bfseries transitionn} (\hyperlink{structEnnemi}{ennemi} $\ast$E, \hyperlink{structplayer}{player} H, \hyperlink{structbackground}{background} bg, \hyperlink{structCamera}{camera} c, S\+D\+L\+\_\+\+Rect pos, \hyperlink{structscore}{score} $\ast$sc, S\+D\+L\+\_\+\+Surface $\ast$ecran, int $\ast$i, int $\ast$animation, int $\ast$follow, int $\ast$wait, int $\ast$attack)\hypertarget{AI_8c_a63aa0cd98be22163386ce75254fff8ba}{}\label{AI_8c_a63aa0cd98be22163386ce75254fff8ba}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+intellignece artificiel. 
+
+\begin{DoxyAuthor}{Author}
+Warriors 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+Apr 01, 2015
+\end{DoxyDate}
+intelligence artificielle 
